@@ -1,0 +1,45 @@
+# Copyright (C) 2026 Bharat Thapa
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimize Admin Bar 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/minimize-adminbar\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-16T11:17:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: minimize-adminbar\n"
+
+#. Plugin Name of the plugin
+#: minimize-adminbar.php
+msgid "Minimize Admin Bar"
+msgstr ""
+
+#. Description of the plugin
+#: minimize-adminbar.php
+msgid "This plugin lets you minimize WP admin bar so that you can work with your content with less distraction."
+msgstr ""
+
+#. Author of the plugin
+#: minimize-adminbar.php
+msgid "Bharat Thapa"
+msgstr ""
+
+#. Author URI of the plugin
+#: minimize-adminbar.php
+msgid "https://bharatt.com.np"
+msgstr ""
+
+#: inc/main-class.php:62
+#: inc/main-class.php:101
+msgid "Show admin bar"
+msgstr ""
+
+#: inc/main-class.php:63
+#: inc/main-class.php:100
+msgid "Hide admin bar"
+msgstr ""

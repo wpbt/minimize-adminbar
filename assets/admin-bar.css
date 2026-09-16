@@ -1,0 +1,91 @@
+#cab-toggle {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 30px;
+	z-index: 999999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	cursor: pointer;
+	color: #eee;
+	background: rgba(255, 255, 255, 0.08);
+	transition: background 0.2s ease, color 0.2s ease, border-radius 0.25s ease,
+		width 0.25s ease, height 0.25s ease, box-shadow 0.25s ease,
+		left 0.25s ease, right 0.25s ease, top 0.25s ease;
+}
+
+#cab-toggle:hover {
+	background: rgba(255, 255, 255, 0.18);
+	color: #72aee6;
+}
+
+.cab-caret {
+	display: flex;
+}
+
+.cab-caret svg {
+	display: block;
+	transition: transform 0.25s ease;
+}
+
+html.cab-bar-hidden #cab-toggle .cab-caret svg {
+	transform: rotate( 180deg );
+}
+
+#wpadminbar > #wp-toolbar > .ab-top-menu {
+	padding-left: 30px;
+}
+
+html.cab-bar-hidden #wpadminbar {
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.2s ease;
+}
+
+html.cab-bar-hidden #cab-toggle {
+	left: auto;
+	right: 8px;
+	top: 8px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background: #1d2327;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+html.cab-bar-hidden #cab-toggle:hover {
+	background: #2271b1;
+	color: #fff;
+}
+
+html.cab-bar-hidden,
+html.cab-bar-hidden.wp-toolbar {
+	padding-top: 0 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	#cab-toggle,
+	#cab-toggle .cab-caret svg,
+	#wpadminbar {
+		transition: none !important;
+	}
+}
+
+@media screen and ( max-width: 782px ) {
+	#cab-toggle {
+		height: 46px;
+		width: 46px;
+	}
+
+	#wpadminbar > #wp-toolbar > .ab-top-menu {
+		padding-left: 46px;
+	}
+
+	html.cab-bar-hidden #cab-toggle {
+		width: 34px;
+		height: 34px;
+	}
+}
