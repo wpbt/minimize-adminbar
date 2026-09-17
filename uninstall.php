@@ -1,4 +1,9 @@
 <?php
+/**
+ * Uninstall routine — cleans up plugin data on deletion.
+ *
+ * @package MinimizeAdminBar
+ */
 
 defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
 

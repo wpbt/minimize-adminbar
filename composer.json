@@ -1,0 +1,23 @@
+{
+    "name": "bharatt/minimize-adminbar",
+    "description": "Minimize WP admin bar so you can work with your content with less distraction.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.13",
+        "wp-coding-standards/wpcs": "^3.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "lint": "phpcs",
+        "lint:fix": "phpcbf"
+    }
+}

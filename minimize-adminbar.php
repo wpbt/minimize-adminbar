@@ -1,15 +1,17 @@
 <?php
 /**
- * Plugin Name: 		Minimize Admin Bar
- * Description: 		This plugin lets you minimize WP admin bar so that you can work with your content with less distraction.
- * Version: 			1.0.0
- * Requires at least: 	6.9
- * Requires PHP:      	8.0
- * Author: 				Bharat Thapa
- * Author URI: 			https://bharatt.com.np
- * Text Domain: 		minimize-adminbar
- * License:           	GPLv3
- * License URI:       	https://www.gnu.org/licenses/gpl-3.0.html
+ * Plugin Name:         Minimize Admin Bar
+ * Description:         This plugin lets you minimize WP admin bar so that you can work with your content with less distraction.
+ * Version:             1.0.0
+ * Requires at least:   6.9
+ * Requires PHP:        8.0
+ * Author:              Bharat Thapa
+ * Author URI:          https://bharatt.com.np
+ * Text Domain:         minimize-adminbar
+ * License:             GPLv3
+ * License URI:         https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * @package MinimizeAdminBar
  */
 
 /*
@@ -36,7 +38,7 @@ define( 'MAB_PLUGIN_PATH', dirname( MAB_PLUGIN_FILE ) . '/' );
 define( 'MAB_PLUGIN_URL', plugins_url( '/', MAB_PLUGIN_FILE ) );
 define( 'MAB_PLUGIN_VERSION', '1.0.0' );
 
-include_once MAB_PLUGIN_PATH . 'inc/main-class.php';
+require_once MAB_PLUGIN_PATH . 'inc/class-minimize-adminbar.php';
 
 /**
  * Bootstrap and run the plugin.
