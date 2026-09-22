@@ -36,6 +36,10 @@ Symlink or copy the folder into `wp-content/plugins/`, activate it, and check:
 - [ ] Looks right under 782px width (WP's own mobile breakpoint)
 - [ ] Animation respects OS-level reduced-motion setting
 
+## Download
+ 
+Grab the latest installable zip from [`archive/minimize-adminbar.zip`](archive/minimize-adminbar.zip) — upload it directly through **Plugins → Add New → Upload Plugin** in WordPress, or unzip it into `wp-content/plugins/`.
+
 ## Author
 
 Bharat Thapa — https://bharatt.com.np
