@@ -46,6 +46,11 @@ require_once MAB_PLUGIN_PATH . 'inc/class-minimize-adminbar.php';
  * @return void
  */
 function minimize_adminbar_init(): void {
+	if ( ! is_user_logged_in() ) {
+		return;
+	}
+
+	error_log( 'This plugin is instantiated only for logged in users.' );
 	new Minimize_AdminBar();
 }
 

@@ -10,6 +10,12 @@ A small WordPress plugin that lets you collapse the admin bar out of view with o
 - State is saved per-user and persists across page loads, sessions, and devices.
 - Fully responsive and respects reduced-motion settings.
 
+## How it looks
+
+| Expanded | Collapsed |
+|---|---|
+| ![Admin bar expanded](docs/screenshots/expanded.png) | ![Admin bar collapsed](docs/screenshots/collapsed.png) |
+
 ## Hooks used
 
 | Hook | Purpose |
