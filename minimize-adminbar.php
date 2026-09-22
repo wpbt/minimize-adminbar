@@ -50,7 +50,6 @@ function minimize_adminbar_init(): void {
 		return;
 	}
 
-	error_log( 'This plugin is instantiated only for logged in users.' );
 	new Minimize_AdminBar();
 }
 
