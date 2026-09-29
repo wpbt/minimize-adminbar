@@ -38,7 +38,12 @@ Symlink or copy the folder into `wp-content/plugins/`, activate it, and check:
 
 ## Download
  
-Grab the latest installable zip from [`archive/minimize-adminbar.zip`](archive/minimize-adminbar.zip) — upload it directly through **Plugins → Add New → Upload Plugin** in WordPress, or unzip it into `wp-content/plugins/`.
+[**Download the latest release (minimize-adminbar.zip)**](https://github.com/wpbt/minimize-adminbar/releases/latest/download/minimize-adminbar.zip)
+
+The zip is ready to use and needs no build step:
+
+1. In WordPress admin, go to **Plugins → Add New → Upload Plugin**.
+2. Choose the zip and click **Install Now**.
 
 ## Author
 
